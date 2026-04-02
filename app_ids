@@ -1,0 +1,64 @@
+{
+  "version": 10,
+  "updated_at": "2026-04-02T00:00:00Z",
+  "ads": {
+    "enabled": true,
+    "refresh_minutes": 1,
+    "waterfall_order": ["admob", "facebook", "adx"],
+    "interstitial_on_click": {
+      "enabled": true,
+      "show_every_clicks": 10
+    },
+    "admob": {
+      "enabled": true,
+      "android": {
+        "app_id": "ca-app-pub-demo-android-app-id",
+        "banner_id": "ca-app-pub-3940256099942544/6300978111",
+        "interstitial_id": "ca-app-pub-3940256099942544/1033173712",
+        "rewarded_id": "ca-app-pub-demo-android-rewarded-id",
+        "native_id": "ca-app-pub-demo-android-native-id",
+        "app_open_id": "ca-app-pub-3940256099942544/9257395921"
+      },
+      "ios": {
+        "app_id": "ca-app-pub-demo-ios-app-id",
+        "banner_id": "ca-app-pub-3940256099942544/2934735716",
+        "interstitial_id": "ca-app-pub-3940256099942544/4411468910",
+        "rewarded_id": "ca-app-pub-demo-ios-rewarded-id",
+        "native_id": "ca-app-pub-demo-ios-native-id",
+        "app_open_id": "ca-app-pub-3940256099942544/5575463023"
+      }
+    },
+    "facebook": {
+      "enabled": true,
+      "android": {
+        "placement_banner": "ca-app-pub-3940256099942544/6300978111",
+        "placement_interstitial": "ca-app-pub-3940256099942544/1033173712",
+        "placement_rewarded": "VID_HD_16_9_46S_APP_INSTALL#demo_android_rewarded",
+        "placement_native": "IMG_16_9_APP_INSTALL#demo_android_native"
+      },
+      "ios": {
+        "placement_banner": "ca-app-pub-3940256099942544/2934735716",
+        "placement_interstitial": "ca-app-pub-3940256099942544/4411468910",
+        "placement_rewarded": "VID_HD_16_9_46S_APP_INSTALL#demo_ios_rewarded",
+        "placement_native": "IMG_16_9_APP_INSTALL#demo_ios_native"
+      }
+    },
+    "adx": {
+      "enabled": true,
+      "android": {
+        "banner_id": "ca-app-pub-3940256099942544/6300978111",
+        "interstitial_id": "ca-app-pub-3940256099942544/1033173712",
+        "rewarded_id": "/network_code/demo_android_rewarded",
+        "native_id": "/network_code/demo_android_native",
+        "app_open_id": "ca-app-pub-3940256099942544/9257395921"
+      },
+      "ios": {
+        "banner_id": "ca-app-pub-3940256099942544/2934735716",
+        "interstitial_id": "ca-app-pub-3940256099942544/4411468910",
+        "rewarded_id": "/network_code/demo_ios_rewarded",
+        "native_id": "/network_code/demo_ios_native",
+        "app_open_id": "ca-app-pub-3940256099942544/5575463023"
+      }
+    }
+  }
+}
