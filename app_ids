@@ -8,7 +8,7 @@
     "waterfall_order": ["admob", "facebook", "adx"],
     "interstitial_on_click": {
       "enabled": true,
-      "show_every_clicks": 2
+      "show_every_clicks": 4
     },
     "admob": {
       "enabled": true,
