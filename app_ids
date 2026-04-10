@@ -3,12 +3,12 @@
   "updated_at": "2026-04-02T00:00:00Z",
   "ads": {
     "enabled": true,
-    "runtime_enabled": true,
+    "runtime_enabled": false,
     "refresh_minutes": 1,
     "waterfall_order": ["admob", "facebook", "adx"],
     "interstitial_on_click": {
       "enabled": true,
-      "show_every_clicks": 10
+      "show_every_clicks": 2
     },
     "admob": {
       "enabled": true,
